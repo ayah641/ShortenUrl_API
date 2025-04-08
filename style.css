@@ -1,0 +1,255 @@
+* {
+  margin: 20px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #f0f1f6;
+  color: #3b3054;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+  background-color: white;
+}
+
+.container {
+  justify-content: space-between;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.left a {
+  text-decoration: none;
+  color: #999;
+  font-size: 0.95rem;
+}
+
+.right .login {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #999;
+  font-size: 0.95rem;
+}
+.right .signup {
+  padding: 0.5rem 1.2rem;
+  background-color: #2acfcf;
+  color: white;
+  border-radius: 25px;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+  background-color: white;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  color: #999;
+  margin-bottom: 2rem;
+}
+
+.hero-text .btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #2acfcf;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-image img {
+  max-width: 450px;
+}
+
+.shorten-section {
+  background-color: #3b3054;
+  padding: 2rem;
+  margin: -3rem auto 4rem auto;
+  width: 80%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.shorten-section input {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+.shorten-section button {
+  padding: 1rem 2rem;
+  background-color: #2acfcf;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.result-box {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #2e264f;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 18px;
+  text-align: center;
+  word-break: break-word;
+}
+
+.result-box.error {
+  background-color: #ffdddd;
+  color: red;
+  border: 1px solid red;
+}
+
+.stats {
+  text-align: center;
+  padding: 4rem;
+}
+
+.stats h2 {
+  margin-bottom: 1rem;
+}
+
+.stats p {
+  color: #999;
+  margin-bottom: 3rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.card1-container {
+  position: relative;
+}
+.card1-container span {
+  position: absolute;
+  margin-top: -28px;
+  margin-left: -40px;
+  z-index: 100000 !important;
+  background-color: rgb(70, 59, 138);
+  border-radius: 50%;
+}
+.card1 {
+  margin: 10px;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: left;
+  flex: 1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card2-container {
+  position: relative;
+}
+.card2-container span {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -40px;
+  z-index: 100000 !important;
+  background-color: rgb(70, 59, 138);
+  border-radius: 50%;
+}
+.card2 {
+  margin: 30px;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: left;
+  flex: 1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card3-container {
+  position: relative;
+}
+.card3-container span {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: -40px;
+  z-index: 100000 !important;
+  background-color: rgb(70, 59, 138);
+  border-radius: 50%;
+}
+.card3 {
+  margin: 60px;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: left;
+  flex: 1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-banner {
+  background-color: #3b3054;
+  color: white;
+  text-align: center;
+  padding: 2rem 2rem;
+}
+
+.footer-banner h2 {
+  margin-bottom: 1rem;
+}
+
+.footer-banner .btn {
+  padding: 1rem 2rem;
+  background-color: #2acfcf;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social a {
+  width: 10px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 37px;
+}
